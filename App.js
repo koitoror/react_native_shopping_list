@@ -103,7 +103,7 @@ const App = () => {
 
   return (
     <View style={styles.container}>
-      <Header title="Shopping List" />
+      <Header title="Koitoror Birthday List" />
       <AddItem addItem={addItem} />
       <FlatList
         data={items}
