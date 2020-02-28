@@ -2,6 +2,8 @@
   package="com.shoppinglist">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
 
     <application
       android:name=".MainApplication"
@@ -10,6 +12,7 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:theme="@style/AppTheme"
+      android:testOnly="false"
       android:usesCleartextTraffic="true">
       <activity
         android:name=".MainActivity"
